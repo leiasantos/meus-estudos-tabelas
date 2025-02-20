@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<style>
+    .estilizada {
+      width: 80%;
+      margin: 50px auto;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+    }
+    th , td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tr:hover {
+      background-color: #ddd;
+    }
+    caption {
+      font-size: 1.5em;
+      margin: 10px;
+    }
+  </style>
+<body>
+    <h1>Tabela Simples</h1>
+    <h1>Tabelas</h1>
+    <table border="1">
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Cidade</th>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>30</td>
+          <td>São Paulo</td>
+        </tr>
+        <tr>
+          <td>João</td>
+          <td>25</td>
+          <td>Rio de Janeiro</td>
+        </tr>
+      </table>
+      <br>
+      <h1> Tabela com Cabeçalho e Rodapé</h1>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Arroz</td>
+            <td>R$ 10,00</td>
+          </tr>
+          <tr>
+            <td>Feijão</td>
+            <td>R$ 7,00</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Total</td>
+            <td>R$ 17,00</td>
+          </tr>
+        </tfoot>
+      </table>
+<br>
+<h1>Tabela com Alinhamento e Estilo</h1>    
+<table border="1">
+    <tr>
+      <th style="text-align:left;">Produto</th>
+      <th style="text-align:right;">Preço</th>
+    </tr>
+    <tr>
+      <td>Celular</td>
+      <td style="text-align:right;">R$ 1500,00</td>
+    </tr>
+    <tr>
+      <td>Laptop</td>
+      <td style="text-align:right;">R$ 3000,00</td>
+    </tr>
+  </table>
+
+<br>
+<h1>Tabela Estilizada</h1>
+<table class="estilizada">
+    <caption>Produtos e Preços</caption>
+    <thead>
+      <tr>
+        <th>Produto</th>
+        <th>Preço</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Arroz</td>
+        <td>R$ 10,00</td>
+      </tr>
+      <tr>
+        <td>Feijão</td>
+        <td>R$ 7,00</td>
+      </tr>
+      <tr>
+        <td>Macarrão</td>
+        <td>R$ 5,00</td>
+      </tr>
+      <tr>
+        <td>Óleo</td>
+        <td>R$ 8,00</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <img width="600" src="../Estrutura de uma tabela.jpg" alt="">
+</body>
+</html>
